@@ -8,13 +8,13 @@
                 display: block ;
             }
 
-            .thumbnail_2{
+            /* .thumbnail_2{
                 width: 200px;
                 height: 200px;;
                 object-fit: cover;
                 object-position: center;
                 border-radius: 100px;
-            }
+            } */
 
             .search-bar{
                 font-size: 20px;
@@ -23,19 +23,17 @@
             .video-title{
                 width: 300px;
             }
-
-            .video-author,
-            .video-stats{
-                display: inline-block;
+            .video-preview{
+                width: 300px;
             }
 
         </style>
     </head>
     <body>
         <input class ="search-bar" type="text" placeholder="Search">
-        <img class="thumbnail" src="thumbnail/thumbnail-1.webp">
-        <img class="thumbnail_2" src="thumbnail/thumbnail-2.webp">
-
+        
+        <div class="video-preview">
+            <img class="thumbnail" src="thumbnail/thumbnail-1.webp">
         <p class="video-title">
             Talking Tech and AI with Google CEO Sundar Pichai!
         </p>
@@ -45,5 +43,6 @@
         <p class="video-stats">
             3.4M views &#183; 6 months ago
         </p>
+        </div>
     </body>
 </html>
